@@ -1,0 +1,34 @@
+
+---
+
+## ✅ `.gitignore`
+
+```gitignore
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+Lib/
+Scripts/
+include/
+
+# System files
+.DS_Store
+
+# FAISS index and user data
+user_data/
+
+# Gradio cache
+gradio_cached_examples/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
